@@ -1,0 +1,7 @@
+2026-09-02 03:20:03,443 - feature_engineering - ERROR - An error occurred while loading data: [Errno 2] No such file or directory: 'data/interim/train.csv'
+2026-09-02 03:20:03,444 - feature_engineering - ERROR - failed to complete feature engineering: [Errno 2] No such file or directory: 'data/interim/train.csv'
+2026-09-02 03:22:12,386 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2026-09-02 03:22:12,413 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2026-09-02 03:22:12,538 - feature_engineering - DEBUG - Bag of words applied and data transformed successfully
+2026-09-02 03:22:12,686 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-09-02 03:22:12,733 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv

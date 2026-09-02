@@ -1,0 +1,4 @@
+2026-09-02 00:40:22,520 - data_ingestion - ERROR - An error occurred in the data ingestion process: load_data() got an unexpected keyword argument 'data_url'
+2026-09-02 00:41:13,688 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/Shashikala-11/mlops-ml-pipeline-practice/refs/heads/main/spam.csv
+2026-09-02 00:41:13,691 - data_ingestion - DEBUG - Columns renamed and unnecessary columns dropped
+2026-09-02 00:41:13,730 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
