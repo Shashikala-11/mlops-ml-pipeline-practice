@@ -5,3 +5,8 @@
 2026-09-02 03:22:12,538 - feature_engineering - DEBUG - Bag of words applied and data transformed successfully
 2026-09-02 03:22:12,686 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
 2026-09-02 03:22:12,733 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2026-09-03 22:13:44,511 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2026-09-03 22:13:44,515 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2026-09-03 22:13:44,616 - feature_engineering - DEBUG - Bag of words applied and data transformed successfully
+2026-09-03 22:13:44,756 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-09-03 22:13:44,801 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv

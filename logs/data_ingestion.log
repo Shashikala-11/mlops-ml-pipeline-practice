@@ -2,3 +2,6 @@
 2026-09-02 00:41:13,688 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/Shashikala-11/mlops-ml-pipeline-practice/refs/heads/main/spam.csv
 2026-09-02 00:41:13,691 - data_ingestion - DEBUG - Columns renamed and unnecessary columns dropped
 2026-09-02 00:41:13,730 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-09-03 22:11:16,550 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/Shashikala-11/mlops-ml-pipeline-practice/refs/heads/main/spam.csv
+2026-09-03 22:11:16,558 - data_ingestion - DEBUG - Columns renamed and unnecessary columns dropped
+2026-09-03 22:11:16,596 - data_ingestion - DEBUG - Train and test data saved to ./data\raw

@@ -1,0 +1,39 @@
+stages:
+
+  data-ingestion:
+    cmd: python src/data-ingestion.py
+    deps:
+      - src/data-ingestion.py
+    outs:
+      - data/raw
+  pre-processing:
+    cmd: python src/pre-processing.py
+    deps: 
+      - data/raw
+      - src/pre-processing.py
+    outs:
+      - data/interim
+  feature-engineering:
+    cmd: python src/feature-engineering.py
+    deps:
+      - data/interim
+      - src/feature-engineering.py
+    outs:
+      - data/processed
+  model-building:
+    cmd: python src/model-building.py
+    deps:
+      - data/processed
+      - src/model-building.py
+    outs:
+      - models/model.pkl
+  model-evaluation:
+    cmd: python src/model-evaluation.py
+    deps:
+        - models/model.pkl
+        - src/model-evaluation.py
+    metrics:
+        - reports/metrics.json
+
+
+

@@ -4,3 +4,7 @@ Model loaded from ./models/model.pkl
 Data loaded frm ./data/processed/test_tfidf.csv
 model evaluation metrics calculated
 Metrics saved to reports/metrics.json
+Model loaded from ./models/model.pkl
+Data loaded frm ./data/processed/test_tfidf.csv
+model evaluation metrics calculated
+Metrics saved to reports/metrics.json
