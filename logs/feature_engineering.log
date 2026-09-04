@@ -10,3 +10,10 @@
 2026-09-03 22:13:44,616 - feature_engineering - DEBUG - Bag of words applied and data transformed successfully
 2026-09-03 22:13:44,756 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
 2026-09-03 22:13:44,801 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2026-09-04 14:23:49,709 - feature_engineering - ERROR - failed to complete feature engineering: load_params() missing 1 required positional argument: 'str'
+2026-09-04 14:24:31,598 - feature_engineering - DEBUG - Paraeters retrieved from params.yaml
+2026-09-04 14:24:31,627 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2026-09-04 14:24:31,646 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2026-09-04 14:24:31,760 - feature_engineering - DEBUG - Bag of words applied and data transformed successfully
+2026-09-04 14:24:31,902 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-09-04 14:24:31,951 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv

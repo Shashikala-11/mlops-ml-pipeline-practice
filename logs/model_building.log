@@ -8,3 +8,19 @@
 2026-09-03 22:13:48,708 - model_building - DEBUG - model training started with 4152 samples
 2026-09-03 22:13:48,946 - model_building - DEBUG - Model training completed successfully
 2026-09-03 22:13:48,949 - model_building - DEBUG - Model saved to models/model.pkl
+2026-09-04 14:24:36,340 - model_building - DEBUG - Paraeters retrieved from params.yaml
+2026-09-04 14:24:36,374 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 51)
+2026-09-04 14:24:36,376 - model_building - DEBUG - Initializing Random forest model with parameters :{'data_ingestion': {'test_size': 0.2}, 'feature_engineering': {'max_features': 50}, 'model_building': {'n_estimators': 25, 'random_state': 2}}
+2026-09-04 14:24:36,377 - model_building - ERROR - An error occurred during model training: 'n_estimators'
+2026-09-04 14:24:36,377 - model_building - ERROR - Failed to complete the model building process :'n_estimators'
+2026-09-04 14:26:57,316 - model_building - DEBUG - Paraeters retrieved from params.yaml
+2026-09-04 14:26:57,347 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 51)
+2026-09-04 14:26:57,351 - model_building - DEBUG - Initializing Random forest model with parameters :{'data_ingestion': {'test_size': 0.2}, 'feature_engineering': {'max_features': 50}, 'model_building': {'n_estimators': 25, 'random_state': 2}}
+2026-09-04 14:26:57,353 - model_building - ERROR - An error occurred during model training: 'n_estimators'
+2026-09-04 14:26:57,353 - model_building - ERROR - Failed to complete the model building process :'n_estimators'
+2026-09-04 14:28:16,052 - model_building - DEBUG - Paraeters retrieved from params.yaml
+2026-09-04 14:28:16,075 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 51)
+2026-09-04 14:28:16,077 - model_building - DEBUG - Initializing Random forest model with parameters :{'n_estimators': 25, 'random_state': 2}
+2026-09-04 14:28:16,078 - model_building - DEBUG - model training started with 4152 samples
+2026-09-04 14:28:16,276 - model_building - DEBUG - Model training completed successfully
+2026-09-04 14:28:16,279 - model_building - DEBUG - Model saved to models/model.pkl

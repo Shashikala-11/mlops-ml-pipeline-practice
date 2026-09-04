@@ -5,3 +5,8 @@
 2026-09-03 22:11:16,550 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/Shashikala-11/mlops-ml-pipeline-practice/refs/heads/main/spam.csv
 2026-09-03 22:11:16,558 - data_ingestion - DEBUG - Columns renamed and unnecessary columns dropped
 2026-09-03 22:11:16,596 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-09-04 14:22:23,407 - data_ingestion - ERROR - An error occurred in the data ingestion process: load_params() missing 1 required positional argument: 'str'
+2026-09-04 14:23:45,007 - data_ingestion - DEBUG - Paraeters retrieved from params.yaml
+2026-09-04 14:23:46,079 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/Shashikala-11/mlops-ml-pipeline-practice/refs/heads/main/spam.csv
+2026-09-04 14:23:46,088 - data_ingestion - DEBUG - Columns renamed and unnecessary columns dropped
+2026-09-04 14:23:46,126 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
