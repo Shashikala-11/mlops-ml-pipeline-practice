@@ -1,0 +1,5 @@
+[core]
+    remote = dvcstore01
+['remote "dvcstore01"']
+    url = azure://dvcstore01
+    account_name = emailspammlopspractice11
